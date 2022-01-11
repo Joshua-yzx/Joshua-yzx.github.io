@@ -71,9 +71,9 @@
       <div class="outer">
         <section id="main">
   
-    <article id="post-个人博库搭建" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+    <article id="post-个人博客搭建" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
-    <a href="/2022/01/11/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%BA%93%E6%90%AD%E5%BB%BA/" class="article-date">
+    <a href="/2022/01/11/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" class="article-date">
   <time class="dt-published" datetime="2022-01-11T11:10:10.000Z" itemprop="datePublished">2022-01-11</time>
 </a>
     
@@ -85,7 +85,7 @@
         
   
     <h1 itemprop="name">
-      <a class="p-name article-title" href="/2022/01/11/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%BA%93%E6%90%AD%E5%BB%BA/">个人博库搭建</a>
+      <a class="p-name article-title" href="/2022/01/11/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">个人博客搭建</a>
     </h1>
   
 
@@ -94,9 +94,38 @@
     <div class="e-content article-entry" itemprop="articleBody">
       
         <p>学习视频<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1Yb411a7ty">手把手教你从0开始搭建自己的个人博客 |无坑版视频教程| hexo_哔哩哔哩_bilibili</a></p>
-<p>测试环境：win10+node.js <a target="_blank" rel="noopener" href="https://nodejs.org/en/">Node.js (nodejs.org)</a></p>
+<p>测试环境：win10+node.js </p>
 <p>使用Hexo框架</p>
 <ul>
+<li>流程<ul>
+<li>安装node <a target="_blank" rel="noopener" href="https://nodejs.org/en/">Node.js (nodejs.org)</a></li>
+<li>#查看版本<ul>
+<li>node -v</li>
+<li>npm -v</li>
+<li>cnpm -v </li>
+<li>hexo -v</li>
+</ul>
+</li>
+<li>npm install -g cnpm –registry=<a target="_blank" rel="noopener" href="http://registry.npm.taobao.org/">http://registry.npm.taobao.org</a>    #安装淘宝的cnpm 管理器</li>
+<li>npm install <code>--</code>save hexo-deployer-git　　　#在blog目录下安装git部署插件</li>
+<li>mkdir bolg #创建博客目录</li>
+<li>hexo init  #初始化博客</li>
+<li>hexo clean #清理</li>
+<li>hexoｓ＃启动博客</li>
+<li><a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000/</a>    #本地访问地址</li>
+<li>修改配置文件_config.yml<ul>
+<li>deploy:<br>  type: git<br>  repo: <a target="_blank" rel="noopener" href="https://github.com/xxx/xxx.github.io.git">https://github.com/xxx/xxx.github.io.git</a><br>  branch: master</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>部署到github前要设置<ul>
+<li>git config –global user.email “xxx”</li>
+<li>git config –global user.name “xxx”</li>
+<li>hexo d　　＃部署到github</li>
+<li><a target="_blank" rel="noopener" href="https://joshua-yzx.github.io/">Hexo (joshua-yzx.github.io)</a></li>
+</ul>
+</li>
 <li>问题：<ul>
 <li>没安装git<ul>
 <li><a target="_blank" rel="noopener" href="https://www.cnblogs.com/qkq505/p/15316884.html">git安装教程及环境配置 - grigeorge - 博客园 (cnblogs.com)</a></li>
@@ -112,13 +141,6 @@
 </ul>
 <p>win10测试结果<img src="https://api2.mubu.com/v3/document_image/822d403f-34d3-4a82-8e48-de7910d84e6e-5770814.jpg" alt="img"></p>
 <ul>
-<li>部署到github<ul>
-<li>git config –global user.email “xxx”</li>
-<li>git config –global user.name “xxx”</li>
-<li>hexo d</li>
-<li><a target="_blank" rel="noopener" href="https://joshua-yzx.github.io/">Hexo (joshua-yzx.github.io)</a></li>
-</ul>
-</li>
 <li>更换主题<ul>
 <li>git clone <a target="_blank" rel="noopener" href="https://github.com/litten/hexo-theme-yilia.git">https://github.com/litten/hexo-theme-yilia.git</a> themes/yilia</li>
 <li>修改配置文件_config.yml<ul>
@@ -136,7 +158,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2022/01/11/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%BA%93%E6%90%AD%E5%BB%BA/" data-id="ckya0j9sm000150udhyle5b39" data-title="个人博库搭建" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2022/01/11/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" data-id="ckya1jzox0000lsuddrrt91bz" data-title="个人博客搭建" class="article-share-link">Share</a>
       
       
       
@@ -187,7 +209,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2022/01/11/hello-world/" data-id="ckya0j9si000050ud0o0t8p8w" data-title="Hello World" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2022/01/11/hello-world/" data-id="ckya1jzp10001lsudcbw909pu" data-title="Hello World" class="article-share-link">Share</a>
       
       
       
@@ -230,7 +252,7 @@
       <ul>
         
           <li>
-            <a href="/2022/01/11/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%BA%93%E6%90%AD%E5%BB%BA/">个人博库搭建</a>
+            <a href="/2022/01/11/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">个人博客搭建</a>
           </li>
         
           <li>
